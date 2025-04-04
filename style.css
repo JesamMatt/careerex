@@ -1,0 +1,41 @@
+.topnav {
+  background-color: lightgray;
+  overflow: unset;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    /* Container that holds all three sections */
+    .container {
+      width: 80%;
+      max-width: 1000px;
+    }
+
+    /* Styling for each section */
+    .section {
+      padding: 20px;
+      margin: 10px 0;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: #fff;
+    }
+
+    /* Optional: Add different background colors for each section */
+    .section:nth-child(1) {
+      background-color: #f7b7a3;
+    }
+    .section:nth-child(2) {
+      background-color: #a3d8f7;
+    }
+    .section:nth-child(3) {
+      background-color: #b3f7a3;
+    }
